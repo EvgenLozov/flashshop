@@ -1,1 +1,0 @@
-java -classpath .;server.jar mycompany.server.MultiThreadedServer 
