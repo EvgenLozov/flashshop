@@ -1,6 +1,9 @@
+import com.flashshop.Product;
 import com.flashshop.managers.DataBaseManager;
 import com.flashshop.managers.NotBlockingDataBaseManager;
 import org.junit.Test;
+
+import java.sql.SQLException;
 
 /**
  * Created with IntelliJ IDEA.
@@ -31,5 +34,26 @@ public class DataBaseManagerTest {
         nbdbm.getProductSkuForCategory("Флешки");
         System.out.println(System.currentTimeMillis() - start);
 
+    }
+
+    @Test
+
+    public void addTradePositionTest() throws SQLException {
+        DataBaseManager dataBaseManager = DataBaseManager.getInstance();
+        Product product = new Product();
+        product.productModel = "someModel";
+        product.providerId = 1;
+        product.categoryName = "Флешки";
+        product.manufacturer = "Transcend";
+        product.productName = "Test Add Trade ";
+        product.productPrice = "23";
+        product.productSku = "54354434";
+
+        dataBaseManager.addTradePosition(product);
+    }
+
+    @Test
+    public void updateProduct() throws SQLException {
+        DataBaseManager.getInstance().updateProduct("rtdfgdg33",2,"100","5");
     }
 }

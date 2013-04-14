@@ -9,6 +9,8 @@ package com.flashshop;
  */
 public class Product {
 
+    public int providerId;
+    public String productModel;
     public String categoryName;
     public String manufacturer;
     public String productName;
@@ -32,5 +34,17 @@ public class Product {
                 '}';
     }
 
+    public String getModel(){
+        //todo
+        return "";
+    }
 
+    public int getPrice(){
+        //todo
+        return 0;
+    }
+
+    public int getProviderId() {
+        return providerId;
+    }
 }

@@ -10,7 +10,6 @@ import com.flashshop.pricelist.PriceListSettingsService;
 import com.flashshop.pricelist.model.PriceListSettings;
 
 import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -43,7 +42,7 @@ public class DataBaseManager implements ActualisatorSettingsService,PublishedCat
     }
 
     public void addTradePosition(Product product) throws SQLException {
-        CallableStatement callableStatement = c.prepareCall("{call add_trade_position(?, ?, ?, ?, ?, ?, ?)}");
+        CallableStatement callableStatement = c.prepareCall("{call add_trade_position(?, ?, ?, ?, ?, ?, ?, ?, ?)}");
         callableStatement.setString(1,product.categoryName);
         callableStatement.setString(2,product.manufacturer);
         callableStatement.setString(3,product.productName);
@@ -51,13 +50,12 @@ public class DataBaseManager implements ActualisatorSettingsService,PublishedCat
         callableStatement.setString(5,product.productPrice);
         callableStatement.setString(6,product.shortDescription);
         callableStatement.setString(7,product.description);
+        callableStatement.setString(8,product.productModel);
+        callableStatement.setInt(9,product.providerId);
         callableStatement.execute();
         callableStatement.close();
     }
-//    public void changePrice(String id, String price) throws SQLException {
-//        String query = "UPDATE `jos_vm_product_price` SET `product_price` = '"+price+"' WHERE `jos_vm_product_price`.`product_id` = "+id+";";
-//        s.executeUpdate(query);
-//    }
+
     public void changePriceBySku(String productSku, String price) throws SQLException {
         String query = "UPDATE `jos_vm_product_price` SET `product_price` = ? WHERE `product_id`=(SELECT product_id FROM jos_vm_product WHERE product_sku= ? );";
         PreparedStatement preparedStatement = c.prepareStatement(query);
@@ -66,29 +64,6 @@ public class DataBaseManager implements ActualisatorSettingsService,PublishedCat
         preparedStatement.executeUpdate();
         preparedStatement.close();
     }
-
-//    public ArrayList<String> getListOfProductId() throws SQLException {
-//        ArrayList<String> list = new ArrayList<String>();
-//        String query = "SELECT product_id FROM `jos_vm_product`";
-//        ResultSet r = s.executeQuery(query);
-//        while (r.next()) {
-//            list.add(r.getString("product_id"));
-//        }
-//        return list;
-//    }
-
-//    public String getProductSku(String id) throws SQLException {
-//        String query = "SELECT `product_sku` FROM `jos_vm_product` WHERE `product_id`="+id;
-//        ResultSet r = s.executeQuery(query);
-//        r.next();
-//        return r.getString("product_sku");
-//
-//    }
-
-//    public void changeQuantityInStock(String id, String count) throws SQLException {
-//        String query = "UPDATE `jos_vm_product` SET `product_in_stock` = '"+count+"' WHERE `jos_vm_product`.`product_id` ="+id+";";
-//        s.executeUpdate(query);
-//    }
 
     public Set<String> getSetOfProductSku() throws SQLException {
         Statement statement = c.createStatement();
@@ -212,16 +187,9 @@ public class DataBaseManager implements ActualisatorSettingsService,PublishedCat
         return productNames;
     }
 
-//    public void notToPublishProduct(String productSku) throws SQLException {
-//        String query = "UPDATE `jos_vm_product` SET `product_publish`='N' WHERE `product_sku`='"+productSku+"';";
-//        s.executeUpdate(query);
-//    }
-
     public ResultSet getProductForHotprice(String productSku) throws SQLException {
         Statement statement = c.createStatement();
         String query = "call get_product_for_hotprice('"+productSku+"')";
-//        CallableStatement callableStatement = c.prepareCall("{call get_product_for_hotprice(?)}");
-//        callableStatement.setString(1,productSku);
         ResultSet resultSet = statement.executeQuery(query);
 
         return resultSet;
@@ -438,6 +406,42 @@ public class DataBaseManager implements ActualisatorSettingsService,PublishedCat
                 se.printStackTrace();
             }
         }
+
+    }
+
+    public boolean isProductExist(Product product) throws SQLException {
+        String query = "SELECT * FROM jos_vm_product where product_model= ?";
+        PreparedStatement preparedStatement = c.prepareStatement(query);
+        ResultSet resultSet = null;
+
+        try {
+            preparedStatement.setString(1,product.productModel);
+            resultSet = preparedStatement.executeQuery();
+
+            return resultSet.next();
+        }
+         finally {
+            preparedStatement.close();
+            if(resultSet != null)
+                resultSet.close();
+        }
+    }
+
+    public void updateProduct(String productModel,int providerId, String price, String productInStock) throws SQLException {
+        String query = "UPDATE `jos_vm_product`,`jos_vm_product_price` " +
+                "SET `jos_vm_product_price`.`product_price`= ?, `jos_vm_product`.`product_in_stock`= ?, `jos_vm_product`.`provider_id`= ?  " +
+                "WHERE `jos_vm_product`.`product_id` = `jos_vm_product_price`.`product_id` AND `product_model`= ?;";
+        PreparedStatement preparedStatement = c.prepareStatement(query);
+        try {
+            preparedStatement.setString(1,price);
+            preparedStatement.setString(2, productInStock);
+            preparedStatement.setInt(3,providerId);
+            preparedStatement.setString(4,productModel);
+            preparedStatement.execute();
+        } finally {
+            preparedStatement.close();
+        }
+
 
     }
 }

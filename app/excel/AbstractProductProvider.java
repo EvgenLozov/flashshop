@@ -1,5 +1,6 @@
 package excel;
 
+import com.flashshop.providerintegration.ProductProvider;
 import jxl.Cell;
 
 /**
@@ -9,7 +10,7 @@ import jxl.Cell;
  * Time: 13:37
  * To change this template use File | Settings | File Templates.
  */
-public abstract class AbstractProductProvider implements ProductProvider{
+public abstract class AbstractProductProvider implements ProductProvider {
     protected ExcelProductProviderSettings settings = new ExcelProductProviderSettings();
 
     protected  int currentRow;

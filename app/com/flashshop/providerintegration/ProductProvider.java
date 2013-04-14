@@ -1,4 +1,4 @@
-package excel;
+package com.flashshop.providerintegration;
 
 import com.flashshop.Product;
 
