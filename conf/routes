@@ -1,0 +1,29 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET /                           controllers.FlashShopController.index()
+GET     /flashshop/log         controllers.FlashShopController.getLogFile()
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)
+
+# hotprice
+GET     /hotprice/pricelist     controllers.HotPriceController.getPrice()
+GET     /hotprice/start         controllers.HotPriceController.start(id)
+GET     /hotprice/stop          controllers.HotPriceController.stop(id)
+GET     /hotprice/setinterval   controllers.HotPriceController.setInterval(period: Long,id)
+GET     /flashshop/categories   controllers.FlashShopController.getCategories()
+GET     /hotprice/selectedcategories   controllers.HotPriceController.getSelectedCategories(id: Long)
+POST     /hotprice/categories   controllers.HotPriceController.setCategories()
+GET     /hotprice/settings   controllers.HotPriceController.getAllPriceListSettings()
+
+#actulization
+GET     /actualization/start         controllers.ActualizatorController.start()
+GET     /actualization/stop          controllers.ActualizatorController.stop()
+GET     /actualization/setinterval   controllers.ActualizatorController.setInterval(period: Long)
+GET     /actualization/categories   controllers.FlashShopController.getCategoriesWithMargin()
+POST     /actualization/setmargin   controllers.ActualizatorController.setMargin()
+
+

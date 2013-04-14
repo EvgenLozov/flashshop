@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes"?>
+<price date="2013-03-13 10:07">
+    <name>FlashShop</name>
+    <url>http://flashshop.com.ua</url>
+    <currency code="UAH"/>
+    <catalog>
+        <category id="56">Оперативная память</category>
+        <category id="75" parentID="56">TwinMos</category>
+        <category id="67" parentID="56">G.Skill</category>
+        <category id="57" parentID="56">Silicon Power</category>
+        <category id="65" parentID="56">GooDRAM</category>
+        <category id="74" parentID="56">Micron</category>
+        <category id="70" parentID="56">CORSAIR</category>
+        <category id="68" parentID="56">Team</category>
+        <category id="73" parentID="56">Mustang</category>
+        <category id="71" parentID="56">GEIL</category>
+        <category id="64" parentID="56">Hynix</category>
+        <category id="58" parentID="56">Kingston</category>
+        <category id="54">Зарядные устройства</category>
+        <category id="62" parentID="54">Lenovo</category>
+        <category id="72" parentID="54">Apple</category>
+        <category id="66" parentID="54">HP</category>
+        <category id="59" parentID="54">Asus</category>
+        <category id="61" parentID="54">Acer</category>
+        <category id="63" parentID="54">Toshiba</category>
+        <category id="55" parentID="54">Dell</category>
+        <category id="51">Материнские платы</category>
+        <category id="60" parentID="51">MSI</category>
+        <category id="53" parentID="51">Intel __CPR__</category>
+        <category id="69" parentID="51">GigaByte</category>
+        <category id="52" parentID="51">Asus</category>
+    </catalog>
+    <items>
+        <item id="3458">
+            <name>Asus Socket2011 iX79 P9X79 LE/C/SI bulk ATX</name>
+            <price>233.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket2011_50b28671c94bf.jpg</image>
+            <description></description>
+        </item>
+        <item id="3450">
+            <name>ASUS AMD Zacate E450 E45M1-M PRO mATX</name>
+            <price>115.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_ASUS_AMD_Zacate_50b0d5f47d802.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /E45M1-M PRO   /AM3  /Чипсет:  /AMD A50M  /Micro ATX  /DDR3  /Количество каналов для памяти:  /1  /Слоты PCIe x16 вер. 2.x:  /1 (x4)  /1 x PCIe 2.0 x1  /2 x PCI  /7.1 CH HD  /1 x D-Sub, 1 x DVI, 1 x HDMI  /1 x IEEE</description>
+        </item>
+        <item id="3511">
+            <name>Intel Socket2011 iX79 BOXDX79TO ATX</name>
+            <price>236.0</price>
+            <categoryId>53</categoryId>
+            <vendor>Intel __CPR__</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Intel_Socket201_50b28e2ae25a2.jpg</image>
+            <description></description>
+        </item>
+        <item id="4314">
+            <name>Dell 65W 19,5V 3,34A (450-14833) + Кабель мережевий</name>
+            <price>43.0</price>
+            <categoryId>55</categoryId>
+            <vendor>Dell</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Модель: 450-14833  / Мощность, Вт: 65  / Выходное напряжение, V: 19.5В  / Выходной ток (максимальный), A: 3.34 </description>
+        </item>
+        <item id="3429">
+            <name>Asus Socket1155 iH61 P8H61 R2.0 ATX</name>
+            <price>73.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket1155_50b12a39c4483.jpg</image>
+            <description></description>
+        </item>
+        <item id="3430">
+            <name>Asus Socket1155 iH61 P8H61 (REV 3.0) ATX</name>
+            <price>73.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket1155_50b1296cf1ad2.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /Asus Socket1155  /1155  /Чипсет:  /Intel H61  /ATX  /DDR3  /Количество каналов для памяти:  /2  /Слоты PCIe x16 вер. 2.x:  /1 (x16)  /2 x PCIe 2.0 x1  /3 x PCI  /7.1 CH HD  /1 x COM port, 1 x Parallel port, 1 x LA</description>
+        </item>
+        <item id="2734">
+            <name> SO DIMM DDRII 1024MB 800 SiliconPower</name>
+            <price>21.0</price>
+            <categoryId>57</categoryId>
+            <vendor>Silicon Power</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Модель:  /SP001GBSRU800S02  /Объём комплекта, Гбайт:  /1GB  /Тип памяти:  /DDR2  /Частота, МГц:  /800  /PC2-6400  /Комплект поставки:  /1 модуль в упаковке  /Объём одного модуля:  /1GB  /Технология памяти:  /Non-ECC </description>
+        </item>
+        <item id="3415">
+            <name>ASUS AMD 760G M4A78LT-M LX mATX</name>
+            <price>58.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_ASUS_AMD_760G_M_50b0cd216f603.png</image>
+            <description>системная плата  /Производитель:  /Asus  /M4A78LT-M LX  /AM3  /Чипсет:  /AMD RS780L  /Micro ATX  /Южный мост:  /SB710  /DDR3  /Количество каналов для памяти:  /2  /2 x PICe x1  /1 x PCI  /Встроенная графика:  /ATI Radeon 3000  /7.1 CH HD  /1 x D-Sub  /1 x</description>
+        </item>
+        <item id="2757">
+            <name> DDRIII 1024MB PC8500 ECC Reg Kingston (1066MHz) KVR1066D3S8R7S/</name>
+            <price>27.0</price>
+            <categoryId>58</categoryId>
+            <vendor>Kingston</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для серверов  /Модель:  /KVR1066D3S8R7S/1G  /Объём комплекта, Гбайт:  /1GB  /Тип памяти:  /DDR3  /Частота, МГц:  /1066  /PC3-8500  /Комплект поставки:  /1 модуль в упаковке  /Объём одного модуля:  /1GB  /Технология памяти:  /ECC Registered </description>
+        </item>
+        <item id="4312">
+            <name>Asus 19V 3.42A Original (PA1650-02) 
+</name>
+            <price>45.0</price>
+            <categoryId>59</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="3522">
+            <name>MSI Socket1366 iX58 X58 Pro-E ATX</name>
+            <price>127.0</price>
+            <categoryId>60</categoryId>
+            <vendor>MSI</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_MSI_Socket1366__50b28cc12cded.jpg</image>
+            <description>системная плата  /Производитель:  /MSI  /X58 Pro-E  /1366  /Чипсет:  /Intel X58  /ATX  /Южный мост:  /ICH10R  /DDR3  /Количество каналов для памяти:  /3  /Слоты PCIe x16 вер. 2.x:  /3 (x16/x16/x4)  /2 x PCIe 2.0 x1  /2 x PCI  /Порты IDE:  /1  /7.1 CH HD</description>
+        </item>
+        <item id="3463">
+            <name>Asus Socket2011 iX79 RAMPAGE IV FORMULA ATX</name>
+            <price>359.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket2011_50b287908a21f.jpg</image>
+            <description></description>
+        </item>
+        <item id="4309">
+            <name>Acer 19V 3.42A 5.5-1.7mm (PA-1650-02) 
+</name>
+            <price>44.0</price>
+            <categoryId>61</categoryId>
+            <vendor>Acer</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="3524">
+            <name>MSI Socket1366 iX58 X58M mATX</name>
+            <price>180.0</price>
+            <categoryId>60</categoryId>
+            <vendor>MSI</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_MSI_Socket1366__50b28c9068040.jpg</image>
+            <description>системная плата  /Производитель:  /MSI  /X58M  /1366  /Чипсет:  /Intel X58  /Micro ATX  /Южный мост:  /ICH10R  /DDR3  /Количество каналов для памяти:  /3  /Слоты PCIe x16 вер. 2.x:  /2 (x16)  /1 x PCI  /7.1 CH HD  /1 x IEEE1394, 1 x LAN(RJ45) port</description>
+        </item>
+        <item id="4341">
+            <name>Lenovo 20V 4.5A 7.9*5.5mm Original </name>
+            <price>44.0</price>
+            <categoryId>62</categoryId>
+            <vendor>Lenovo</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="4344">
+            <name>Toshiba 15V 5A (PA3283U-1ACA) 
+</name>
+            <price>44.0</price>
+            <categoryId>63</categoryId>
+            <vendor>Toshiba</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>БП для ноутбуков производства: Toshiba  / Модель: PA3283U-1ACA  / Производитель: оригинальный  / Мощность, Вт: 75  / Входное напряжение: 100-240В  / Выходное напряжение, V: 15В  / Переходников: 1  / Выходной ток (максимальный), A: 5 </description>
+        </item>
+        <item id="2752">
+            <name> DDRIII 4096MB PC10600 ECC Reg Hynix (1333MHz) HMT151R7TFR4C-H9D</name>
+            <price>115.0</price>
+            <categoryId>64</categoryId>
+            <vendor>Hynix</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для серверов  /Модель:  /HMT151R7TFR4C-H9D7  /Объём комплекта, Гбайт:  /4GB  /Тип памяти:  /DDR3  /Частота, МГц:  /1333  /PC3-10600  /Комплект поставки:  /1 модуль в упаковке  /Объём одного модуля:  /4GB  /Технология памяти:  /ECC Registered </description>
+        </item>
+        <item id="4343">
+            <name>Toshiba 19V 6.3A 120W 6,3mm-3,0mm Replacement + Кабель мережевий</name>
+            <price>39.0</price>
+            <categoryId>63</categoryId>
+            <vendor>Toshiba</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="4308">
+            <name>Acer 19V 4.74A (PA-1900-05) 
+</name>
+            <price>41.0</price>
+            <categoryId>61</categoryId>
+            <vendor>Acer</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>БП для ноутбуков производства: Acer  / Модель: 19V 4.74A (PA-1900-05)  / Производитель: совместимый  / Мощность, Вт: 90  / Входное напряжение: 100-240В  / Выходное напряжение, V: 19В  / Переходников: 1  / Выходной ток (максимальный), A: 5  / Защита от пер</description>
+        </item>
+        <item id="3525">
+            <name>MSI Socket1366 iX58 X58 Pro ATX</name>
+            <price>211.0</price>
+            <categoryId>60</categoryId>
+            <vendor>MSI</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_MSI_Socket1366__50b0f5d807366.jpg</image>
+            <description>системная плата  /Производитель:  /MSI  /X58 Pro  /1366  /Чипсет:  /Intel X58  /ATX  /Южный мост:  /ICH10R  /DDR3  /Количество каналов для памяти:  /3  /Слоты PCIe x16 вер. 2.x:  /3 (x16/x16/x4)  /2 x PICe x1  /2 x PCI  /7.1 CH HD  /1 x IEEE1394, 1 x LAN(</description>
+        </item>
+        <item id="2702">
+            <name> SO DIMM DDRII 1024MB 800 GOODRAM</name>
+            <price>21.0</price>
+            <categoryId>65</categoryId>
+            <vendor>GooDRAM</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Модель:  /GR800S264L5/1G  /Объём комплекта, Гбайт:  /1GB  /Тип памяти:  /DDR2  /Частота, МГц:  /800  /PC2-6400  /Комплект поставки:  /1 модуль в упаковке  /Объём одного модуля:  /1GB  /Технология памяти:  /Non-ECC </description>
+        </item>
+        <item id="2770">
+            <name> DDRIII 2048MB PC10600 ECC Reg Kingston (1333MHz) KVR1333D3D8R9S</name>
+            <price>40.0</price>
+            <categoryId>58</categoryId>
+            <vendor>Kingston</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для серверов  /Модель:  /KVR1333D3D8R9S/2G  /Объём комплекта, Гбайт:  /2GB  /Тип памяти:  /DDR3  /Частота, МГц:  /1333  /PC3-10600  /Комплект поставки:  /1 модуль в упаковке  /Объём одного модуля:  /2GB  /Технология памяти:  /ECC Registered </description>
+        </item>
+        <item id="3412">
+            <name>ASUS AMD 760G M5A78L-M LX V2 mATX</name>
+            <price>52.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_ASUS_AMD_760G_M_50b0ce2ce964c.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /M5A78L-M LX  /Чипсет:  /AMD 760G  /DDR3  /1 x D-Sub  /1 x COM port, 1 x Parallel port, 1 x LAN(RJ45) port</description>
+        </item>
+        <item id="4339">
+            <name>HP 90W 19V 4.7A (BT796AA) Original </name>
+            <price>61.0</price>
+            <categoryId>66</categoryId>
+            <vendor>HP</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="4337">
+            <name>HP 90W 19V 4.7A (KG298AA) Original </name>
+            <price>43.0</price>
+            <categoryId>66</categoryId>
+            <vendor>HP</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="2691">
+            <name> SO DIMM DDRII 1024MB 800 G.SKILL</name>
+            <price>22.0</price>
+            <categoryId>67</categoryId>
+            <vendor>G.Skill</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Объём комплекта, Гбайт:  /1GB  /Тип памяти:  /DDR2  /Частота, МГц:  /800  /PC2-6400  /Комплект поставки:  /без упаковки (ОЕМ)  /Объём одного модуля:  /1GB  /Технология памяти:  /Unbuffered (Non-ECC) </description>
+        </item>
+        <item id="2747">
+            <name> SO DIMM DDR 1024MB PC3200 Team Elite</name>
+            <price>32.0</price>
+            <categoryId>68</categoryId>
+            <vendor>Team</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Объём комплекта, Гбайт:  /1GB  /Тип памяти:  /DDR  /PC-3200  /Комплект поставки:  /1 модуль в упаковке  /Объём одного модуля:  /1GB  /Технология памяти:  /Non-ECC </description>
+        </item>
+        <item id="3507">
+            <name>GigaByte Socket1156 iH55 GA-H55M-UD2H mATX</name>
+            <price>119.0</price>
+            <categoryId>69</categoryId>
+            <vendor>GigaByte</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_GigaByte_Socket_50b28ecd47248.jpg</image>
+            <description>системная плата  /Производитель:  /GigaByte  /GA-H55M-UD2H  /1156  /Чипсет:  /Intel H55  /Micro ATX  /DDR3  /Количество каналов для памяти:  /2  /Слоты PCIe x16 вер. 2.x:  /2 (x16/x4)  /2 x PCI  /7.1 CH HD  /1 x D-Sub, 1 x DVI, 1 x HDMI  /1 x IEEE1394, 1</description>
+        </item>
+        <item id="2707">
+            <name> SO DIMM DDRII 4096MB 800 GOODRAM</name>
+            <price>75.0</price>
+            <categoryId>65</categoryId>
+            <vendor>GooDRAM</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Модель:  /800 GOODRAM PC2-6400  /Объём комплекта, Гбайт:  /4GB  /Тип памяти:  /DDR2  /Частота, МГц:  /800  /PC2-6400  /Комплект поставки:  /1 модуль в упаковке  /Объём одного модуля:  /4GB </description>
+        </item>
+        <item id="4311">
+            <name>Asus mini 9.5V 2.5A 4.8-1.7mm Replacement + Кабель мережевий</name>
+            <price>36.0</price>
+            <categoryId>59</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="3434">
+            <name>Asus Socket1155 iH61 P8H61/USB3 R2.0 ATX</name>
+            <price>79.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket1155_50b2810abbb27.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /P8H61/USB3 R2.0  /1155  /Чипсет:  /Intel H61  /ATX  /DDR3  /Количество каналов для памяти:  /2  /2 x PCIe 2.0 x1  /3 x PCI  /7.1 CH HD  /1 x COM port, 1 x Parallel port, 1 x LAN(RJ45) port</description>
+        </item>
+        <item id="3526">
+            <name>Intel Socket2011 iX79 X79A-GD45 (8D) ATX</name>
+            <price>253.0</price>
+            <categoryId>60</categoryId>
+            <vendor>MSI</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Intel_Socket201_50b28da629afa.jpg</image>
+            <description>системная плата  /Производитель:  /MSI  /X79A-GD45 (8D)  /Socket2011  /Чипсет:  /Intel X79  /ATX  /DDR3  /Количество каналов для памяти:  /4  /Слоты PCIe x16 вер. 2.x:  /2 (x16)  /1 x PCIe 2.0 x1  /7.1 CH HD  /Количество портов USB 3.0:  /2  /1 x LAN(RJ45</description>
+        </item>
+        <item id="3466">
+            <name>Asus Socket2011 iX79 P9X79 WS ATX</name>
+            <price>396.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket2011_50b286fc7cba1.jpg</image>
+            <description></description>
+        </item>
+        <item id="3420">
+            <name>Asus Socket1155 iH61 P8H61-M LE (REV 3.0) mATX</name>
+            <price>62.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket1155_50b27e6cbcaef.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /P8H61-M LE (REV 3.0)  /1155  /Чипсет:  /Intel H61  /Micro ATX  /DDR3  /Количество каналов для памяти:  /2  /Слоты PCIe x16 вер. 2.x:  /1 (x16)  /2 x PCIe 2.0 x1  /1 x PCI  /Встроенная графика:  /Intel H61 Express</description>
+        </item>
+        <item id="2518">
+            <name> DDR III 16384MB PC3-15000 Corsair Dominator™ Platinum (1866MHz)</name>
+            <price>175.0</price>
+            <categoryId>70</categoryId>
+            <vendor>CORSAIR</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для настольных ПК  /Модель:  /DDR III 16384MB PC3-15000 Corsair Dominator™ Platinum (1866MHz) (Kit of 2х8GB)  /Объём комплекта, Гбайт:  /16GB  /Тип памяти:  /DDR3  /Частота, МГц:  /1866  /PC3-15000  /Объём одного модуля:  /8GB </description>
+        </item>
+        <item id="4336">
+            <name>HP 90W 19V 4.7A (ED495AA) Original </name>
+            <price>37.0</price>
+            <categoryId>66</categoryId>
+            <vendor>HP</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>БП для ноутбуков производства: HP  / Модель: ED495AA  / Производитель: оригинальный  / Мощность, Вт: 90  / Входное напряжение: 100-240В  / Универсальный БП: Да  / Выходное напряжение, V: 19В  / Переходников: 1  / Выходной ток (максимальный), A: 4.74 </description>
+        </item>
+        <item id="4335">
+            <name>HP 65W 18.5V 3.5A (ED494AA) Original з кабелем</name>
+            <price>30.0</price>
+            <categoryId>66</categoryId>
+            <vendor>HP</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>БП для ноутбуков производства: HP  / Модель: ED494AA  / Производитель: оригинальный  / Мощность, Вт: 65  / Входное напряжение: 100-240В  / Универсальный БП: Да  / Переходников: 1 </description>
+        </item>
+        <item id="2506">
+            <name> DDR III 8192MB PC3-17000 Corsair (2133MHz) (Kit of 2х4Gb) CMZ8G</name>
+            <price>68.0</price>
+            <categoryId>70</categoryId>
+            <vendor>CORSAIR</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для настольных ПК  /Модель:  /DDR III 8192MB PC3-17000 Corsair (2133MHz) (Kit of 2х4Gb) CMZ8GX3M2A2133C11R Red  /Объём комплекта, Гбайт:  /8GB  /Тип памяти:  /DDR3  /Частота, МГц:  /2133  /РС3-17000  /Объём одного модуля:  /4GB </description>
+        </item>
+        <item id="2709">
+            <name> SO DIMM DDRII 1024MB 800 Hynix Original</name>
+            <price>22.0</price>
+            <categoryId>64</categoryId>
+            <vendor>Hynix</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Модель:  /800 Hynix Original  /Объём комплекта, Гбайт:  /1GB  /Тип памяти:  /DDR2  /Частота, МГц:  /800  /PC2-6400  /Объём одного модуля:  /1GB  /Технология памяти:  /Non-ECC </description>
+        </item>
+        <item id="3521">
+            <name>MSI Socket1155 iP67 P67A-C43 (B3) ATX</name>
+            <price>107.0</price>
+            <categoryId>60</categoryId>
+            <vendor>MSI</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_MSI_Socket1155__50b0f2a7bb51c.jpg</image>
+            <description></description>
+        </item>
+        <item id="3455">
+            <name>Asus Socket775 iP45 P5Q3 ATX</name>
+            <price>153.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/Asus_Socket775_i_50e8163501cd5.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /P5Q3  /775  /Чипсет:  /Intel P45  /ATX  /Южный мост:  /ICH10R  /DDR3  /Количество каналов для памяти:  /2  /1 x PCIe x1  /3 x PCI 2.2  /7.1 CH HD  /1 x IEEE1394, 1 x LAN(RJ45) port</description>
+        </item>
+        <item id="3406">
+            <name>ASUS AMD 760G M5A78L-M LX3 mATX</name>
+            <price>51.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_ASUS_AMD_760G_M_50b0d02def2c1.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  / AMD 760G M5A78L-M LX3 mATX  /AM3+  /Чипсет:  /AMD 760G  /Micro ATX  /DDR3  /Количество каналов для памяти:  /2  /2 x PICe x1  /1 x PCI  /Встроенная графика:  /ATI Radeon 3000  /7.1 CH HD  /1 x D-Sub  /1 x COM por</description>
+        </item>
+        <item id="3464">
+            <name>Asus Socket2011 iX79 RAMPAGE IV FORMULA/BF3 ATX</name>
+            <price>364.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket2011_50b287ba7fd55.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /RAMPAGE IV FORMULA/BF3  /Socket2011  /Чипсет:  /Intel X79  /ATX  /DDR3  /Количество каналов для памяти:  /4  /2 x PCIe 2.0 x1  /7.1 CH HD  /Количество портов USB 3.0:  /4  /1 x LAN(RJ45) port</description>
+        </item>
+        <item id="3454">
+            <name>Asus Socket1155 iZ77 P8Z77-V LK ATX</name>
+            <price>134.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket1155_50b282d8bed86.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /P8Z77-V LK  /1155  /Чипсет:  /Intel Z77   /ATX  /DDR3  /Количество каналов для памяти:  /2  /Слоты PCIe x16 вер. 2.x:  /1 (x16)  /2 x PCIe 2.0 x1  /2 x PCI  /Порты SATA 3 (6.0 Gb/s):  /2  /Количество портов USB 3.</description>
+        </item>
+        <item id="4338">
+            <name>HP 18.5V 4.9A 7.4-5.0mm Original </name>
+            <price>47.0</price>
+            <categoryId>66</categoryId>
+            <vendor>HP</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="4340">
+            <name>Lenovo 20V 3.25A 5,5*2,5mm Original </name>
+            <price>42.0</price>
+            <categoryId>62</categoryId>
+            <vendor>Lenovo</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="2744">
+            <name> SO DIMM DDRII 1024MB 800 Team Elite CL5</name>
+            <price>22.0</price>
+            <categoryId>68</categoryId>
+            <vendor>Team</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Объём комплекта, Гбайт:  /1GB  /Тип памяти:  /DDR2  /Частота, МГц:  /800  /PC2-6400  /Комплект поставки:  /без упаковки (ОЕМ)  /Объём одного модуля:  /1GB  /Технология памяти:  /Non-ECC </description>
+        </item>
+        <item id="3461">
+            <name>Asus Socket2011 iX79 P9X79 PRO ATX</name>
+            <price>324.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket2011_50b286d4c315d.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /P9X79 PRO  /Socket2011  /Чипсет:  /Intel X79  /ATX  /DDR3  /Количество каналов для памяти:  /4  /2 x PCIe 2.0 x1  /7.1 CH HD  /Количество портов USB 3.0:  /4  /1 x LAN(RJ45) port</description>
+        </item>
+        <item id="4342">
+            <name>Lenovo 20V 4.5A 5,5*2,5mm Original </name>
+            <price>45.0</price>
+            <categoryId>62</categoryId>
+            <vendor>Lenovo</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="2700">
+            <name> SO DIMM DDRIII 1024MB 1333 GooDRAM</name>
+            <price>16.0</price>
+            <categoryId>65</categoryId>
+            <vendor>GooDRAM</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="3460">
+            <name>Asus Socket2011 iX79 P9X79 ATX</name>
+            <price>254.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket2011_50b285a5729c8.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /P9X79  /Socket2011  /Чипсет:  /Intel X79  /ATX  /DDR3  /Количество каналов для памяти:  /4  /2 x PCIe 2.0 x1  /1 x PCI  /7.1 CH HD  /Количество портов USB 3.0:  /4  /1 x IEEE1394, 1 x LAN(RJ45) port</description>
+        </item>
+        <item id="2699">
+            <name> SO DIMM DDRII 2048MB 800 GEIL</name>
+            <price>34.0</price>
+            <categoryId>71</categoryId>
+            <vendor>GEIL</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Объём комплекта, Гбайт:  /2GB  /Тип памяти:  /DDR2  /Комплект поставки:  /без упаковки (ОЕМ)  /Объём одного модуля:  /2GB  /Технология памяти:  /Unbuffered (Non-ECC) </description>
+        </item>
+        <item id="4313">
+            <name>Asus 19V 4.74A Original (PA1900-24)</name>
+            <price>47.0</price>
+            <categoryId>59</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="3408">
+            <name>ASUS AMD 760G M5A78L-M LX/C/SI mATX bulk</name>
+            <price>54.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_ASUS_AMD_760G_M_50b0cecb61b82.png</image>
+            <description>системная плата  /Производитель:  /Asus  /M5A78L-M LX/C/S  /AM3+  /Чипсет:  /AMD 760G  /Micro ATX  /Южный мост:  /SB710  /DDR3  /Количество каналов для памяти:  /2  /2 x PICe x1  /1 x PCI  /Встроенная графика:  /ATI Radeon 3000  /7.1 CH HD  /1 x D-Sub  /1</description>
+        </item>
+        <item id="4315">
+            <name>Dell 19.5V 3.34A (PA1650-OSD) </name>
+            <price>48.0</price>
+            <categoryId>55</categoryId>
+            <vendor>Dell</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="4310">
+            <name>Apple 16.5V 3.65A 60W MagSafe Original + Кабель мережевий</name>
+            <price>73.0</price>
+            <categoryId>72</categoryId>
+            <vendor>Apple</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description></description>
+        </item>
+        <item id="2728">
+            <name> SO DIMM DDRIII 4096MB 1333 Mustang</name>
+            <price>26.0</price>
+            <categoryId>73</categoryId>
+            <vendor>Mustang</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Объём комплекта, Гбайт:  /4GB  /Тип памяти:  /DDR3  /Частота, МГц:  /1333  /PC3-10666  /Комплект поставки:  /без упаковки (ОЕМ)  /Объём одного модуля:  /4GB  /Технология памяти:  /Non-ECC </description>
+        </item>
+        <item id="3426">
+            <name>Asus Socket1155 iH61 P8H61-M (REV 3.0) mATX</name>
+            <price>68.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket1155_50b27e31f3ae3.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /P8H61-M (REV 3.0)  /1155  /Чипсет:  /Intel H61  /Micro ATX  /DDR3  /Количество каналов для памяти:  /2  /Слоты PCIe x16 вер. 2.x:  /1 (x16)  /2 x PCIe 2.0 x1  /1 x PCI  /7.1 CH HD  /1 x D-Sub, 1 x DVI, 1 x HDMI  /</description>
+        </item>
+        <item id="2726">
+            <name> SO DIMM DDRII 1024MB 800 Micron Rendition</name>
+            <price>22.0</price>
+            <categoryId>74</categoryId>
+            <vendor>Micron</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Модель:  /DDRII 1024MB 800 Micron   /Объём комплекта, Гбайт:  /1GB  /Тип памяти:  /DDR2  /Частота, МГц:  /800  /PC2-6400  /Комплект поставки:  /1 модуль в упаковке  /Объём одного модуля:  /1GB </description>
+        </item>
+        <item id="4316">
+            <name>Dell 19.5V 4.62A (PA1900-02D2) </name>
+            <price>51.0</price>
+            <categoryId>55</categoryId>
+            <vendor>Dell</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>БП для ноутбуков производства: DELL  / Модель: PA1900-02D2  / Производитель: совместимый  / Мощность, Вт: 90  / Входное напряжение: 100-240В  / Выходное напряжение, V: 19.5В  / Переходников: 1  / Выходной ток (максимальный), A: 5 </description>
+        </item>
+        <item id="2730">
+            <name> SO DIMM DDRIII 2048MB 1333 TwinMos</name>
+            <price>19.0</price>
+            <categoryId>75</categoryId>
+            <vendor>TwinMos</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для ноутбуков  /Модель:  /SO DIMM DDRIII 2048MB 1333 TwinMos (  /Объём комплекта, Гбайт:  /2GB  /Тип памяти:  /DDR3  /Частота, МГц:  /1333  /PC3-10600  /Комплект поставки:  /1 модуль в упаковке  /Объём одного модуля:  /2GB </description>
+        </item>
+        <item id="3462">
+            <name>Asus Socket2011 iX79 RAMPAGE IV GENE ATX</name>
+            <price>334.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket2011_50b287f04f716.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /RAMPAGE IV GENE  /Socket2011  /Чипсет:  /Intel X79  /Micro ATX  /DDR3  /Количество каналов для памяти:  /4  /7.1 CH HD  /1 x LAN(RJ45) port</description>
+        </item>
+        <item id="3467">
+            <name>Asus Socket2011 iX79 RAMPAGE IV EXTREME ATX</name>
+            <price>430.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket2011_50b2873a0a662.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /Rampage IV Extreme  /Socket2011  /Чипсет:  /Intel X79  /ATX  /DDR3  /Количество каналов для памяти:  /4  /Слоты PCIe x16 вер. 2.x:  /2 (x16/x8)  /1 x PCIe 2.0 x1  /7.1 CH HD  /Количество портов USB 3.0:  /4  /1 x</description>
+        </item>
+        <item id="3465">
+            <name>Asus Socket2011 iX79 P9X79 DELUXE ATX</name>
+            <price>370.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/Asus_Socket2011__50b2862c99c51.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /P9X79 DELUXE  /Socket2011  /Чипсет:  /Intel X79  /ATX  /DDR3  /Количество каналов для памяти:  /4  /2 x PCIe 2.0 x1  /7.1 CH HD  /Количество портов USB 3.0:  /6  /2 x LAN(RJ45) port</description>
+        </item>
+        <item id="3447">
+            <name>Asus Socket1155 iH77 P8H77-M mATX</name>
+            <price>98.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_Asus_Socket1155_50b28160db563.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /P8H77-M  /1155  /Чипсет:  /Intel H77  /Micro ATX  /DDR3  /Количество каналов для памяти:  /2  /Слоты PCIe x16 вер. 2.x:  /1 (x16)  /1 x PCIe 2.0 x1  /1 x PCI  /Порты SATA 3 (6.0 Gb/s):  /2  /Количество портов USB</description>
+        </item>
+        <item id="3409">
+            <name>ASUS AMD 760G M5A78L-M LX mATX</name>
+            <price>54.0</price>
+            <categoryId>52</categoryId>
+            <vendor>Asus</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/_ASUS_AMD_760G_M_50b0cda907b5e.jpg</image>
+            <description>системная плата  /Производитель:  /Asus  /ASUS AMD 760G M5A78L-M LX  /AM3+  /Чипсет:  /AMD 760G  /Micro ATX  /Южный мост:  /SB710  /DDR3  /Количество каналов для памяти:  /2  /Слоты PCIe x16 вер. 2.x:  /1 (x16)  /2 x PCIe 2.0 x1  /1 x PCI  /Встроенная гра</description>
+        </item>
+        <item id="2779">
+            <name> DDRIII 8192MB PC12800 ECC Reg Kingston (1600MHz) KVR1600D3D4R11</name>
+            <price>66.0</price>
+            <categoryId>58</categoryId>
+            <vendor>Kingston</vendor>
+            <image>http://flashshop.com.ua/components/com_virtuemart/shop_image/product/</image>
+            <description>Память для настольных ПК  /Модель:  /KVR1600D3D4R11S/8G  /Объём комплекта, Гбайт:  /8GB  /Тип памяти:  /DDR3  /Частота, МГц:  /1600  /PC3-12800  /Комплект поставки:  /1 модуль в упаковке  /Объём одного модуля:  /8GB </description>
+        </item>
+    </items>
+</price>
