@@ -7,3 +7,5 @@ tmp
 dist
 /.settings
 /README
+/.idea
+/.idea_modules
