@@ -19,6 +19,7 @@ function displaySettings(data){
         a.innerText += allSettings[i].name;
 
         form.appendChild(a);
+        form.innerHTML += "&nbsp;"
     }
 }
 
