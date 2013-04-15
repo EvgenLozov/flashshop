@@ -3,36 +3,70 @@
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
   <title>Configure and manage price lists for sites aggregators</title>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
-  <script type="text/javascript" src="/assets/javascripts/hotprice.js"></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/simple.css">
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+      <script type="text/javascript" src="/assets/javascripts/hotprice.js"></script>
 </head>
-<a href="/assets/html/actualization.html"><strong>GO</strong> </a> to update information on the site-->
+
+
 <body>
 
-<form id="start" name="form1">
-    <input type="button" value="Start" onclick="start()" />
-</form>
+<div id="container">
+    <div id="header"> <a href="#">Новая версия шаблона</a> </div>
+    <div id="menu"> <a  href="#">ГЛАВНАЯ</a> &nbsp; &nbsp; &nbsp; &nbsp; <a  href="#">СЕРВИСЫ</a> &nbsp; &nbsp; &nbsp; &nbsp; <a  href="#">ПРАЙС</a> &nbsp; &nbsp; &nbsp; &nbsp; <a href="#">КОНТАКТЫ</a>  </div>
+    <div id="sidebar">
+        <ul id="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="/assets/html/actualization.html">Actualization</a></li>
+            <li><a href="/assets/html/hotprice.html">Price List Creator</a>
+                <ul>
+                    <li><a href="#">service first</a></li>
+                    <li><a href="#">service second</a></li>
+                </ul>
+            </li>
+            <li><a href="#">products</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+        </br>
 
-<form id="stop" name="form2">
-    <input type="button" value="Stop" onclick="stop()" />
-</form>
+        Download </a>
+        <a href="/flashshop/log" > log file </a>
 
-<form id="changeinterval" name="form3">
-    <input type="text"  name ="interval" id="period" size="10" />
-    <input type="button" name="setintervalbutton" value="Change period" onclick="setInterval()">
-</form>
+    </div>
 
-<a href="/hotprice/pricelist" >
-Download </a>pricelist for HotPrice
+    <div id="wrapp">
+        <div id="buttonStartAndStop">
+            <form id="start" name="form1">
+                <input type="button" value="Start" onclick="start()" />
+            </form>
 
-<form id="settings">
-    </form>
+            <form id="stop" name="form2">
+                <input type="button" value="Stop" onclick="stop()" />
+            </form>
 
-<form id="categories">
-</form>
-</br></br>
-    Download </a>
-<a href="/flashshop/log" > log file
+            <form id="changeinterval" name="form3">
+                <input type="text"  name ="interval" id="period" size="10" />
+                <input type="button" name="setintervalbutton" value="Change period" onclick="setInterval()">
+            </form>
+
+            <a href="/hotprice/pricelist" >
+                Download </a>pricelist for HotPrice</div>
+        <div id="button">
+        </div>
+
+        <div id="main">
+            <div id="categories"></div>
+            <br>
+
+
+        </div>
+    </div>
+    <div id="footer"> &copy;2011 Cамый простой шаблон &nbsp;<span class="separator">|</span>&nbsp;  </div>
+</div>
+
 
 </body>
 </html>
+
+
+

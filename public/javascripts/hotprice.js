@@ -11,18 +11,14 @@ jQuery.get("/hotprice/settings",{},displaySettings);
 
 function displaySettings(data){
     var allSettings = data;
-    form = document.getElementById("settings");
+    form = document.getElementById("button");
     for (i=0; i<allSettings.length; i++) {
-        var input = document.createElement("input");
-        input.setAttribute("type","radio");
-        input.setAttribute("name","pricelistsettings");
-        input.setAttribute("id",allSettings[i].id);
-        input.setAttribute("onChange","displayCategorySettings(this.id)");
+        var a = document.createElement("a");
+        a.setAttribute("id",allSettings[i].id);
+        a.setAttribute("onClick","displayCategorySettings(this.id);  return false");
+        a.innerText += allSettings[i].name;
 
-        form.appendChild(input);
-        form.innerHTML += allSettings[i].name;
-        form.appendChild(document.createElement("br"));
-
+        form.appendChild(a);
     }
 }
 
