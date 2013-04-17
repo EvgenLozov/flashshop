@@ -74,7 +74,7 @@ public class ActualizatorController extends Controller {
         JsonNode body = request().body().asJson();
         ArrayList margin = Json.fromJson(body, ArrayList.class);
 
-        ArrayList<CategoryWithMargin> categories = new ArrayList<>();
+        ArrayList<CategoryWithMargin> categories = new ArrayList<CategoryWithMargin>();
         for(Object obj: margin)
         {
             Map map = (Map) obj;
