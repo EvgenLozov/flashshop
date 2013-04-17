@@ -3,30 +3,77 @@
 <html>
 <head>
   <title>Updating the information on the site</title>
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/simple.css"/>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
     <script type="text/javascript" src="/assets/javascripts/actualization.js"></script>
 </head>
 <body>
-<a href="/assets/html/hotprice.html"><strong>GO</strong></a> to setting price lists -->
-<form id="start" name="startactualization">
-    <input type="button" value="Start" onclick="start()" />
-</form>
+<div id="container">
 
-<form id="stop" name="form2">
-    <input type="button" value="Stop" onclick="stop()" />
-</form>
+    <div id="header">
+        <a href="#">Tools for servicing the online store</a>
+    </div>
 
-<form id="changeinterval" name="form3">
-    <input type="text"  name ="interval" id="period" size="10" />
-    <input type="button" name="setintervalbutton" value="Change period" onclick="setInterval()">
-</form>
+    <div id="menu">
+        <a  href="/">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a  href="#">SERVICES</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a  href="#">PRICE</a> &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="#">CONTACTS</a>
+    </div>
 
-<form id="changemargin" name="form4">
-   </form>
-</br></br>
-<a href="/flashshop/log" >
-    Download </a> log file
+    <div id="sidebar">
 
+        <ul id="nav">
+
+            <li><a href="/assets/html/actualization.html">Actualization</a></li>
+            <li><a href="/assets/html/hotprice.html">Price List Creator</a>
+                <ul>
+                    <li><a href="#">service first</a></li>
+                    <li><a href="#">service second</a></li>
+                </ul>
+            </li>
+            <li><a href="#">products</a></li>
+            <li><a href="#">contact</a></li>
+
+        </ul>
+
+        </br>
+
+    </div>
+
+    <div id="wrapp">
+
+        <div id="buttonStartAndStop">
+
+            <form id="start" name="startactualization">
+                <input type="button" value="Start" onclick="start()" />
+            </form>
+
+            <form id="stop" name="form2">
+                <input type="button" value="Stop" onclick="stop()" />
+            </form>
+
+            <form id="changeinterval" name="form3">
+                <input type="text"  name ="interval" id="period" size="10" />
+                <input type="button" name="setintervalbutton" value="Change period" onclick="setInterval()">
+            </form>
+
+        </div>
+
+        <div id="main">
+
+            <form id="changemargin" name="form4">
+            </form>
+
+        </div>
+
+    </div>
+
+    <div id="footer">
+        Download  <a align="left" href="/flashshop/log" > log file </a>
+    </div>
+
+</div>
 
 </body>
 </html>
