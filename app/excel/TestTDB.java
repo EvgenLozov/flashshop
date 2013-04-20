@@ -9,13 +9,14 @@ package excel;
  */
 public class TestTDB {
     public static void main(String[] args) {
-//        TDBProductProvider tdbProductProvider = TDBProductProvider.getInstance();
-//        while (tdbProductProvider.hasNextProduct())
-//            System.out.println(tdbProductProvider.nextProduct());
-//        System.out.println("Next price");
+        TDBProductProvider tdbProductProvider = TDBProductProvider.getInstance();
+        while (tdbProductProvider.hasNextProduct())
+            System.out.println(tdbProductProvider.nextProduct());
 
-        KpiServiceProductProvider kpiServiceProductProvider = KpiServiceProductProvider.getInstance();
-        while (kpiServiceProductProvider.hasNextProduct())
-            System.out.println(kpiServiceProductProvider.nextProduct());
+//        System.out.println("Next price");
+//
+//        KpiServiceProductProvider kpiServiceProductProvider = KpiServiceProductProvider.getInstance();
+//        while (kpiServiceProductProvider.hasNextProduct())
+//            System.out.println(kpiServiceProductProvider.nextProduct());
     }
 }

@@ -69,6 +69,7 @@ function setNewMargin(){
 }
 
 function start(){
+
     jQuery.get("/actualization/start",{},
         message
     );

@@ -1,6 +1,7 @@
 package excel;
 
 import com.flashshop.Product;
+import jxl.Cell;
 import jxl.read.biff.BiffException;
 
 import java.io.IOException;
@@ -31,7 +32,7 @@ public class TDBProductProvider extends AbstractProductProvider {
 
         settings.setColumnProductName(4);
         settings.setColumnManufacturer(2);
-        settings.setColumnProductSku(3);
+        settings.setColumnProductModel(3);
         settings.setColumnProductPrice(5);
         settings.setColumnWarranty(6);
         settings.setColumnShortDescription(11);
@@ -67,14 +68,29 @@ public class TDBProductProvider extends AbstractProductProvider {
     }
 
     @Override
+    protected String findProductModel(Cell[] currentRow) {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    protected String findProductManufacturer(Cell[] currentRow) {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    protected boolean getProductAvailability(Cell[] currentRow) {
+        return false;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
     public Product nextProduct() {
         Product product = new Product();
         product.categoryName = currentCategory;
-        product.manufacturer = getCurrentRow()[settings.getColumnManufacturer()].getContents();
+        product.manufacturer = getProductManufacturer(getCurrentRow());
+        product.productModel = getProductModel(getCurrentRow());
         product.productName = getCurrentRow()[settings.getColumnProductName()].getContents();
         product.productPrice = getCurrentRow()[settings.getColumnProductPrice()].getContents();
         product.warranty = getCurrentRow()[settings.getColumnWarranty()].getContents();
-        product.productSku = getCurrentRow()[settings.getColumnProductSku()].getContents();
         product.shortDescription = getCurrentRow()[settings.getColumnShortDescription()].getContents();
         return product;
 

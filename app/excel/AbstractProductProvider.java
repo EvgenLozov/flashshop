@@ -16,13 +16,18 @@ public abstract class AbstractProductProvider implements ProductProvider {
     protected  int currentRow;
     protected String currentCategory;
 
-
     protected abstract String getCategoryNameOfRow(int row);
 
     // визначає, чи являється рядок, номер якого передаємо у параметрі, категорією
     protected abstract boolean isCategory(int row);
 
     protected abstract boolean isLastProduct();
+
+    protected abstract String findProductModel(Cell[] currentRow);
+
+    protected abstract String findProductManufacturer(Cell[] currentRow);
+
+    protected abstract boolean getProductAvailability(Cell[] currentRow);
 
     protected Cell[] getRow(int row){
         return settings.getSheet().getRow(row);
@@ -36,6 +41,20 @@ public abstract class AbstractProductProvider implements ProductProvider {
     protected Cell[] getNextProductRow(){
        return settings.getSheet().getRow(currentRow+1);
 
+    }
+
+    protected String getProductModel(Cell[] productRow){
+        if (settings.getColumnProductModel() != 0)
+            return productRow[settings.getColumnProductModel()].getContents();
+        else
+            return findProductModel(productRow);
+    }
+
+    protected String getProductManufacturer(Cell[] productRow){
+        if (settings.getColumnManufacturer() != 0)
+            return productRow[settings.getColumnManufacturer()].getContents();
+        else
+            return findProductManufacturer(productRow);
     }
 
     @Override

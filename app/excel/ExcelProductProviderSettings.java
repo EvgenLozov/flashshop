@@ -25,6 +25,7 @@ public class ExcelProductProviderSettings {
     private int columnManufacturer;
     private int columnProductName;
     private int columnProductSku;
+    private int columnProductModel;
     private boolean columnProductAvailability;
     private int columnProductPrice;
     private int columnShortDescription;
@@ -57,6 +58,14 @@ public class ExcelProductProviderSettings {
 
     public void setHeaderRow(int headerRow) {
         this.headerRow = headerRow;
+    }
+
+    public int getColumnProductModel() {
+        return columnProductModel;
+    }
+
+    public void setColumnProductModel(int columnProductModel) {
+        this.columnProductModel = columnProductModel;
     }
 
     public int getColumnCategoryName() {

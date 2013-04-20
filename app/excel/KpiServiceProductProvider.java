@@ -1,6 +1,7 @@
 package excel;
 
 import com.flashshop.Product;
+import jxl.Cell;
 import jxl.read.biff.BiffException;
 
 import java.io.IOException;
@@ -64,6 +65,21 @@ public class KpiServiceProductProvider extends AbstractProductProvider {
             return true;
 
         return false;
+    }
+
+    @Override
+    protected String findProductModel(Cell[] currentRow) {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    protected String findProductManufacturer(Cell[] currentRow) {
+        return null;  //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @Override
+    protected boolean getProductAvailability(Cell[] currentRow) {
+        return false;  //To change body of implemented methods use File | Settings | File Templates.
     }
 
     @Override
