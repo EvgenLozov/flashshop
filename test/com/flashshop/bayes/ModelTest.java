@@ -42,6 +42,6 @@ public class ModelTest {
         Model model = new Model();
         model.train(new DatabaseSampleProvider());
 
-        model.getCause("Gembird MUSOPTI10");
+        model.getCause("A4Tech G7-300 Wireless Yellow");
     }
 }
