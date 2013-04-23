@@ -42,7 +42,6 @@ public class ModelTest {
         Model model = new Model();
         model.train(new DatabaseSampleProvider());
 
-        String category = model.getCause("SSD 120GB Corsair Neutron Series™ CSSD-N120GB3-BK");
-        System.out.println(category);
+        model.getCause("Gembird MUSOPTI10");
     }
 }
