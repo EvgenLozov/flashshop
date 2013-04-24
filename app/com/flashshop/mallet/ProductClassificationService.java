@@ -3,10 +3,12 @@ package com.flashshop.mallet;
 import cc.mallet.classify.Classifier;
 import cc.mallet.classify.ClassifierTrainer;
 import cc.mallet.classify.MaxEntTrainer;
+import cc.mallet.classify.Trial;
 import cc.mallet.pipe.*;
 import cc.mallet.types.Instance;
 import cc.mallet.types.InstanceList;
 import cc.mallet.types.Labeling;
+import cc.mallet.util.Randoms;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -112,8 +114,20 @@ public class ProductClassificationService {
         //  classifier. Mallet includes a wide variety of classification
         //  algorithms, see the JavaDoc API for details.
 
+        InstanceList[] instanceLists =
+                trainingInstances.split(new Randoms(),
+                        new double[] {0.9, 0.1, 0.0});
+
         ClassifierTrainer trainer = new MaxEntTrainer();
-        classifier = trainer.train(trainingInstances);
+        classifier = trainer.train(instanceLists[0]);
+        Trial trial = new Trial(classifier, instanceLists[1]);
+
+
+        System.out.println("Accuracy: " + trial.getAccuracy());
+
+        System.out.println("Precision for class '" +
+                classifier.getLabelAlphabet().lookupLabel(1) + "': " +
+                trial.getPrecision(1));
     }
 
 }
