@@ -1,146 +1,185 @@
 
 
 body  {
-background: #F4F4F4;
-margin: 0;
+    background: #F4F4F4;
+    margin: 0;
 }
 
-#container { 
-width: 780px;
-margin: 0 auto;
-background: #FFFFFF;
+#container {
+    width: 780px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    height:auto;
 }
 
-#header { 
-padding: 45px 0 20px 40px;
-} 
+#header {
+    padding: 45px 0 20px 40px;
+}
 
 #header a {
-color: #121212;
-text-decoration: none;
-font-size: 30px; 
-font-family: "Myriad Pro", "Arial Narrow";
+    color: #121212;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Myriad Pro", "Arial Narrow";
 }
 
 #menu {
-background-color: #3b7687; 
-padding: 6px 0 6px 40px;
+    background: #3b7687;
+    padding: 6px 0 6px 40px;
+
+    background: -moz-linear-gradient(top,  #4D8BA4 0%, #3b7687 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4D8BA4 ), color-stop(100%, #3b7687));
+    background: -webkit-linear-gradient(top,  #4D8BA4 0%, #3b7687 100%);
+    background: -o-linear-gradient(top,  #4D8BA4 0%, #3b7687 100%);
+    background: -ms-linear-gradient(top,  #4D8BA4 0%, #3b7687 100%);
+    background: linear-gradient(top,  #4D8BA4 0%, #3b7687 100%);
+
 }
 
 #menu a {
-color: #c5d6db;
-text-decoration: none; 
-font-size: 14px; 
-font-family: "Arial Narrow", "Myriad Pro";
+    color: #c5d6db;
+    text-decoration: none;
+    font: bold 12px/32px Arial, sans-serif;
 }
 
 #menu a:hover {
-color: #ecf2f3;
+    color: #ecf2f3;
 }
 
 #sidebar {
-float: left;
-width: 205px;
-padding: 30px 0 0 0px;
-margin: 0;
+    float: left;
+    width: 190px;
+    padding: 0px 10px 0 0px;
+    margin-left: 20px;
+    margin-top: 60px}
+.accordion {
+    margin:0;
+    padding:0;
 }
 
-#nav, #nav li ul{
-margin:0px;
-padding:0px ;
-list-style:none;
-font-size: 14px}
+.accordion  li{
+    min-width: 190px;
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-transform: uppercase;
+}
+.accordion  li ul{
+    min-width: 190px;
+    margin:0;
+    padding:0;
+    list-style:none;}
+.accordion li > a {
+    font: bold 12px/32px Arial, sans-serif;
+    display: block;
+    position: relative;
+    height:32px;
+    padding: 0 10px 0 40px;
+    color: #1A4B5E;
+    background:#c5d6db;
+    text-decoration:none;
 
-#nav{
-width:200px;
-text-transform: uppercase;
+    background: -moz-linear-gradient(top,  #c5d6db 0%, #8FB3C1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c5d6db ), color-stop(100%, #8FB3C1));
+    background: -webkit-linear-gradient(top,  #c5d6db 0%, #8FB3C1 100%);
+    background: -o-linear-gradient(top,  #c5d6db 0%, #8FB3C1 100%);
+    background: -ms-linear-gradient(top,  #c5d6db 0%, #8FB3C1 100%);
+    background: linear-gradient(top,  #c5d6db 0%, #8FB3C1 100%);
 }
-#nav li ul{
-  display:none;
-  }
-#nav li a{
-  padding:10px 20px 10px 20px;
-  color:grey;
-  text-decoration:none;
-  }
-  
-h1 {
-margin: 0px;
-color: #869843; 
-font-size:24px;
-font-family: "Arial Narrow", "Myriad Pro"; 
-font-weight: normal;
+.accordion > li:hover > a,
+.accordion > li:target > a {
+    color: #ecf2f3 ;
+    background-color: #3b7687;
+}
+.submenu li a{
+    background:#efefef;
+    border-bottom: 1px solid #c9c9c9;
+    margin: 0px;
+    height:32px;
+    color:#797979;
+}
+.submenu li:last-child a { border: none; }
+.submenu li:hover a { background: #e5e5e5; }
+
+.accordion li > .submenu {
+    height: 0;
+    overflow: hidden;
+}
+.accordion li:target > .submenu {
+    height: 98px;
 }
 
-h2 {
-color: #3b7687;
-font-size: 15px; 
-margin: 20px 0 5px 0;
-}
 #wrapp{
-padding: 35px 40px 30px 0;
+    border-left: 3px solid #3b7687;
+    padding: 0px 0px 30px 0;
+    margin: 35px 40px 30px 220px;
+}
+
+#buttonStartAndStop{
+    margin: 0 0 0 15px;
 }
 #button{
 
-margin: 0 0 0 200px;
-padding: 15px 60px 5px 0;
+    margin: 0 0 0 2px;
+    padding: 15px 60px 5px 0;
 }
 #categories{
-padding: 0 0 0 35px;
+    padding: 0 0 0 3px;
 }
-#main { 
-margin: 0 0 0 180px;
-padding: 35px 40px 30px 0;
-color: #444444;
-font-family: "Georgia";
-font-size: 13px; 
-line-height: 18px;
-text-align: justify;
-} 
+#main {
+    margin: 35px 40px 30px 0px;
+    padding: 0px 0px 0px 10px;
+    color: #444444;
+    font-family: "Arial";
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+}
 
 #main a {
-color: #3b7687; 
-text-decoration: none;
+    color: #3b7687;
+    text-decoration: none;
 }
 
 #button a:hover {
-color: #444444;
+    color: #444444;
 }
 
 #button a {
-color: #c5d6db ;
-text-decoration: none; 
-font-size: 14px; 
-font-family: "Arial Narrow", "Myriad Pro";
-background-color: #3b7687; 
-padding: 6px 20px 6px 20px;
+    color: #c5d6db ;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    background-color: #3b7687;
+    padding: 6px 20px 6px 20px;
 }
 
 
 #wrapp a:hover {
-color: #ecf2f3 ;
-background-color: #3b7687; 
-padding: 6px 20px 6px 20px;
+    color: #ecf2f3 ;
+    background-color: #3b7687;
+    padding: 6px 20px 6px 20px;
 }
 
 #footer {
-padding: 6px 40px 6px 40px;
-background: #d6d6d6; 
-font-family: "Lucida Sans Unicode";
-color: #444444;
-font-size: 11px;
-text-align: left;
+
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-align: left;
 }
 
 #footer a {
-text-decoration: none; 
+    text-decoration: none;
 }
 
 #footer a:hover {
-color: #666666;
+    color: #666666;
 }
 
 .separator {
-font-size:11px;
-color:#FFFFFF;
+    font-size:11px;
+    color:#FFFFFF;
 }

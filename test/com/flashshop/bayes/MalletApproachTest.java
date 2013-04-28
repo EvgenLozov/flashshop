@@ -15,7 +15,7 @@ public class MalletApproachTest {
     public void testClassification() throws Exception {
         ProductClassificationService service = new ProductClassificationService();
 
-        service.classify("Asus Socket1155 iH77 P8H77-M PRO mATX");
+        service.classify("Мишка A4-Tech XL-747H brown, USB, Spider Cover");
 
     }
 }

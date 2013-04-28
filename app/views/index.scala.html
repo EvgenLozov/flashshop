@@ -12,24 +12,30 @@
 <body>
 
 <div id="container">
+
     <div id="header"> <a href="#">Tools for servicing the online store</a> </div>
     <div id="menu"> <a  href="#">HOME</a> &nbsp; &nbsp; &nbsp; &nbsp; <a  href="#">SERVICES</a> &nbsp; &nbsp; &nbsp; &nbsp; <a  href="#">PRICE</a> &nbsp; &nbsp; &nbsp; &nbsp; <a href="#">CONTACTS</a>  </div>
+
     <div id="sidebar">
-        <ul id="nav">
+        <ul  class="accordion">
             <li><a href="/assets/html/actualization.html">Actualization</a></li>
-            <li><a href="/assets/html/hotprice.html">Price List Creator</a>
-                <ul>
-                    <li><a href="#">service first</a></li>
-                    <li><a href="#">service second</a></li>
+            <li id="one"><a  href="#one">Price List Creator</a>
+                <ul class="submenu">
+                    <li><a href="/assets/html/hotprice.html">Category settings</a></li>
+                    <li><a href="#one">service second</a></li>
+                    <li><a href="#one">service third</a></li>
                 </ul>
             </li>
-            <li><a href="#">products</a></li>
+            <li id="two"><a href="#two">products</a>
+                <ul class="submenu">
+                    <li><a href="#two">service first</a></li>
+                    <li><a href="#two">service second</a></li>
+                    <li><a href="#two">service third</a></li>
+                </ul>
+            </li>
+
             <li><a href="#">contact</a></li>
-        </ul>
-        </br>
-
-
-
+        </ul><div> </div>
     </div>
 
     <div id="wrapp">
