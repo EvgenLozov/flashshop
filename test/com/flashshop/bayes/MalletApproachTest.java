@@ -15,7 +15,7 @@ public class MalletApproachTest {
     public void testClassification() throws Exception {
         ProductClassificationService service = new ProductClassificationService();
 
-        service.classify("Мишка A4-Tech XL-747H brown, USB, Spider Cover");
+        service.classify("Мишка A4-Tech XL-747H brown, USB");
 
     }
 }
